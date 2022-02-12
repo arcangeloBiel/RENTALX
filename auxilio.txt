@@ -24,3 +24,7 @@ Passos para criação do projeto
 #yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-base eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-prettier prettier -D
 
 #yarn eslint --init
+
+/* Usando uuid*/
+#yarn add uuid
+#yarn add @types/uuid -D
