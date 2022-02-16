@@ -28,3 +28,7 @@ Passos para criação do projeto
 /* Usando uuid*/
 #yarn add uuid
 #yarn add @types/uuid -D
+
+/* UPLOAD DE ARQUIVO */
+#yarn add multer --save
+#yarn add @types/multer -D
