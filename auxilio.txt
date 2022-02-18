@@ -32,3 +32,6 @@ Passos para criação do projeto
 /* UPLOAD DE ARQUIVO */
 #yarn add multer --save
 #yarn add @types/multer -D
+
+/* CSV PARSE*/
+#yarn add csv-parse
