@@ -35,3 +35,9 @@ Passos para criação do projeto
 
 /* CSV PARSE*/
 #yarn add csv-parse
+
+/* ADICIONANDO SWAGGER */
+yarn add swagger-ui-express
+
+em tsconfig.json habilitar  ["resolveJsonModule": true]
+
