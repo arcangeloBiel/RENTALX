@@ -17,10 +17,12 @@ class ImportCategoryUseCase {
 
       stream.pipe(parseFile);
 
-      parseFile.on("data", async (data) => {
+      parseFile
+        .on("data", async (data) => {
           categoriesImp.push(data);
         })
         .on("end", () => {
+          fs.promises.unlink(file.path); // deletar o arquivo
           resolve(categoriesImp);
         })
         .on("error", (err) => {
